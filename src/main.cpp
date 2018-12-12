@@ -209,7 +209,7 @@ int main() {
   }
 
   int lane = 1;
-  double ref_vel = 8.2;
+  double ref_vel = 7.0;
   
   
   h.onMessage([&map_waypoints_x,&map_waypoints_y,&map_waypoints_s,&map_waypoints_dx,&map_waypoints_dy, &lane, &ref_vel](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length,
