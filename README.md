@@ -1,6 +1,12 @@
 # CarND-Path-Planning-Project
 Self-Driving Car Engineer Nanodegree Program
    
+## Goals
+The goal of this project is to design a path planner that is able to create smooth, safe paths for the car to follow along a 3 lanes highway with traffic that is driving 10MPH to 50MPH speed limit. The car will try to pass slower traffic when possible in order to reach as close as 50 MPH speed limit. The car should be able to complete on loop around about 4.32 miles withour accident as well as driving inside of the road lane. Also the car should not experience total acceration over 10 m/s^2 and jerk that is greater than 10 m/2^3
+
+## Valid Trajectories
+### 
+
 ### Simulator.
 You can download the Term3 Simulator which contains the Path Planning Project from the [releases tab (https://github.com/udacity/self-driving-car-sim/releases/tag/T3_v1.2).
 
